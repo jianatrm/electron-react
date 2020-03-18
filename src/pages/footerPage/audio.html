@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <audio id="audio" src="http://m10.music.126.net/20200318154929/d51f6fa50fc339ee30a1d11371c49beb/ymusic/5409/5158/025b/cc5945120af2295af4f051f44fc9981d.mp3"></audio>
+    <button id="button">播放</button>
+    <button id="button1">暂停</button>
+</body>
+    <script>
+        let elementById = document.getElementById("audio");
+        let button = document.getElementById("button");
+        let button1 = document.getElementById("button1");
+        button.onclick= function(){
+            elementById.play()
+        }
+        button1.onclick= function(){
+            elementById.pause()
+        }
+
+    </script>
+</html>

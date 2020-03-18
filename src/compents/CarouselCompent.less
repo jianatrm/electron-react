@@ -1,0 +1,55 @@
+.carousel{
+  background-color: chartreuse;
+  width: 1130px;
+  height: 284px;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  ul{
+    margin: 0;
+    padding: 0;
+    li{
+      position: absolute;
+      transition: 2s;
+      img{
+        width: 730px;
+        height: 284px;
+      }
+    }
+    .carli0{
+      transform:translateX(0) scale(0.8) ;
+      transform-origin: 0px 284px;
+      z-index: 1;
+    }
+    .carli1{
+      transform:translateX(200px) ;
+      transform-origin: 565px 284px;
+      z-index: 2;
+    }
+    .carli2{
+      transform:translateX(400px) scale(0.8);
+      transform-origin: 730px 284px;
+      z-index: 1;
+    }
+    .carli3{
+      transform:translateX(600px) scale(0.8);
+      transform-origin: 930px 284px;
+      z-index: -1;
+    }
+    .carli4{
+      transform:translateX(800px) scale(0.8);
+      transform-origin: 1130px 284px;
+      z-index: -2;
+    }
+    .carli5{
+      transform:translateX(1000px) scale(0.8);
+      transform-origin: 1330px 284px;
+      z-index: -3;
+    }
+    .carli6{
+      transform:translateX(1200px) scale(0.8);
+      transform-origin: 1530px 284px;
+      z-index: -4;
+    }
+  }
+}
